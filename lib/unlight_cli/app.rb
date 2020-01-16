@@ -4,6 +4,8 @@ require 'thor'
 require 'thor/group'
 
 require 'unlight_cli/commands/initialize'
+require 'unlight_cli/commands/update'
+require 'unlight_cli/commands/start'
 
 module UnlightCLI
   # The main CLI command
@@ -13,5 +15,7 @@ module UnlightCLI
   class App < Thor
     register Commands::Initialize,
              'init', 'init', 'Initialize OpenUnlight Server'
+    register Commands::Update, 'update', 'update', 'Update server'
+    register Commands::Start, 'start', 'start', 'Start server'
   end
 end

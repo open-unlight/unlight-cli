@@ -36,8 +36,9 @@ module UnlightCLI
       # @api private
       def initialize_load
         Dir.chdir name do
-          invoke 'commands:update'
-          invoke 'commands:start'
+          # TODO: Improve invoke action
+          invoke 'unlight_c_l_i:commands:update'
+          invoke 'unlight_c_l_i:commands:start'
         end
       end
 
