@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     unlight-cli (0.1.0)
+      thor (>= 0.18)
 
 GEM
   remote: https://rubygems.org/
