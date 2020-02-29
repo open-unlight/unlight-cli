@@ -27,7 +27,7 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
     rainbow (3.0.0)
-    rake (10.5.0)
+    rake (13.0.1)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
       rspec-expectations (~> 3.9.0)
@@ -60,7 +60,7 @@ DEPENDENCIES
   bundler-audit (~> 0.6.1)
   overcommit (~> 0.52.0)
   pry
-  rake (~> 10.0)
+  rake (~> 13.0)
   rspec (~> 3.0)
   rubocop (~> 0.79.0)
   unlight-cli!
